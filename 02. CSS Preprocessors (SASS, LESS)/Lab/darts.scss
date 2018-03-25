@@ -1,0 +1,46 @@
+$brown-circle: brown;
+$blue-circle: blue;
+$greenYellow-circle: greenyellow;
+$yellow-circle: yellow;
+$red-circle: red;
+
+@mixin div-styles {
+  border-radius: 50%;
+  text-align: center;
+  font-size: 26px;
+  color: white;
+  margin: auto;
+  margin-top: 5%;
+}
+
+div {
+  @include div-styles;
+  background-color: $brown-circle;
+  width: 500px;
+  height: 500px;
+  div {
+    @include div-styles;
+    background-color: $blue-circle;
+    width: 400px;
+    height: 400px;
+    div {
+      @include div-styles;
+      background-color: $greenYellow-circle;
+      width: 300px;
+      height: 300px;
+      div {
+        @include div-styles;
+        background-color: $yellow-circle;
+        width: 200px;
+        height: 200px;
+        div {
+          @include div-styles;
+          background-color: $red-circle;
+          width: 100px;
+          height: 100px;
+          margin-top: 10%;
+        }
+      }
+    }
+  }
+}

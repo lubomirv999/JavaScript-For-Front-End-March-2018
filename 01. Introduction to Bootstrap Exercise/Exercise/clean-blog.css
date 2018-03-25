@@ -1,0 +1,13 @@
+header{
+    background: url("images/home-bg.jpg") center;
+    background-size: cover;
+}
+
+h1{
+    padding-top: 100px;
+}
+
+p{
+    font-size: 22px;
+    padding-bottom: 150px;
+}

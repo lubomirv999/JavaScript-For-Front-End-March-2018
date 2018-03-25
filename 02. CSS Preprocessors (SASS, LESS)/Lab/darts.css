@@ -1,0 +1,53 @@
+div {
+  border-radius: 50%;
+  text-align: center;
+  font-size: 26px;
+  color: white;
+  margin: auto;
+  margin-top: 5%;
+  background-color: brown;
+  width: 500px;
+  height: 500px; }
+  div div {
+    border-radius: 50%;
+    text-align: center;
+    font-size: 26px;
+    color: white;
+    margin: auto;
+    margin-top: 5%;
+    background-color: blue;
+    width: 400px;
+    height: 400px; }
+    div div div {
+      border-radius: 50%;
+      text-align: center;
+      font-size: 26px;
+      color: white;
+      margin: auto;
+      margin-top: 5%;
+      background-color: greenyellow;
+      width: 300px;
+      height: 300px; }
+      div div div div {
+        border-radius: 50%;
+        text-align: center;
+        font-size: 26px;
+        color: white;
+        margin: auto;
+        margin-top: 5%;
+        background-color: yellow;
+        width: 200px;
+        height: 200px; }
+        div div div div div {
+          border-radius: 50%;
+          text-align: center;
+          font-size: 26px;
+          color: white;
+          margin: auto;
+          margin-top: 5%;
+          background-color: red;
+          width: 100px;
+          height: 100px;
+          margin-top: 10%; }
+
+/*# sourceMappingURL=darts.css.map */
