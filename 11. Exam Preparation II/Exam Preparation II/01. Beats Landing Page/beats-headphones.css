@@ -1,0 +1,144 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,900";
+body {
+  font-family: 'Open Sans', sans-serif; }
+  body ul {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px; }
+    body ul li {
+      list-style-type: none; }
+      body ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 0.9em;
+        color: #969696; }
+      body ul li a:hover {
+        border-bottom: 2px solid #D0D0D0;
+        color: #313131;
+        padding: 5px 0; }
+  body main .main-section {
+    display: flex;
+    margin-top: 100px; }
+    body main .main-section .info {
+      margin-top: 100px;
+      margin-left: 150px; }
+      body main .main-section .info h1 {
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: 3em;
+        margin-bottom: 0; }
+      body main .main-section .info p {
+        line-height: 25px;
+        width: 75%; }
+    body main .main-section img {
+      width: 100%;
+      margin-right: 350px; }
+    body main .main-section button {
+      background-color: #FF0000;
+      border: none;
+      border-radius: 30px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      padding: 13px 40px;
+      margin-top: 20px;
+      cursor: pointer; }
+  body main .second-section {
+    display: flex;
+    margin-top: 100px; }
+    body main .second-section img {
+      height: 400px;
+      margin-top: 40px;
+      margin-left: 150px; }
+    body main .second-section .second-section-info {
+      margin-left: 100px; }
+      body main .second-section .second-section-info h2 {
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: 4em;
+        margin-bottom: 0; }
+      body main .second-section .second-section-info .performance {
+        text-transform: uppercase;
+        margin-left: 145px;
+        margin-bottom: 60px; }
+        body main .second-section .second-section-info .performance p {
+          margin-top: 0; }
+        body main .second-section .second-section-info .performance span {
+          font-weight: bold; }
+    body main .second-section .powerbeats-info {
+      width: 73%;
+      margin-bottom: 60px; }
+    body main .second-section .price {
+      font-weight: bold;
+      font-size: 2.2em;
+      margin-right: 30px; }
+    body main .second-section button {
+      background-color: #FF0000;
+      border: none;
+      border-radius: 30px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      padding: 13px 40px;
+      margin-top: 20px;
+      cursor: pointer; }
+  body main .try-beats {
+    background-color: #575757;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px; }
+    body main .try-beats div {
+      display: flex;
+      justify-content: center; }
+      body main .try-beats div img {
+        width: 90px;
+        height: 90px; }
+      body main .try-beats div p {
+        text-transform: uppercase;
+        font-size: 1.7em;
+        color: #FFFFFF;
+        padding-bottom: 40px;
+        margin-left: 30px; }
+        body main .try-beats div p span {
+          font-weight: bold; }
+    body main .try-beats a {
+      border-bottom: 1px solid #FFFFFF;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.5em;
+      color: #FFFFFF;
+      padding-bottom: 7px; }
+  body main .give-life {
+    display: flex; }
+    body main .give-life img {
+      height: 600px; }
+    body main .give-life .beats-red-info {
+      background-color: #DADADA;
+      display: flex;
+      height: 600px; }
+      body main .give-life .beats-red-info h2 {
+        text-transform: uppercase;
+        font-size: 7.5em;
+        width: 50%;
+        color: #333333;
+        margin-left: 70px;
+        margin-bottom: 0; }
+      body main .give-life .beats-red-info p {
+        font-size: 2em;
+        color: #444444;
+        margin-top: 0;
+        margin-left: 85px; }
+        body main .give-life .beats-red-info p span {
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 1.2em;
+          color: #FF0000; }
+      body main .give-life .beats-red-info img {
+        padding: 30px 0;
+        height: 550px; }
+  body footer {
+    text-align: center; }
+
+/*# sourceMappingURL=beats-headphones.css.map */

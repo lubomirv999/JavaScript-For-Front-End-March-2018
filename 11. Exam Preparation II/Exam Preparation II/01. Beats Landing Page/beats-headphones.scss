@@ -1,0 +1,216 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,900";
+
+@mixin button-styles{
+  background-color: #FF0000;
+  border: none;
+  border-radius: 30px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 13px 40px;
+  margin-top: 20px;
+}
+
+@mixin button-hover{
+    cursor: pointer;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+
+  ul{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+
+    li{
+      list-style-type: none;
+
+      a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 0.9em;
+        color: #969696;
+      }
+
+      a:hover{
+        border-bottom: 2px solid #D0D0D0;
+        color: #313131;
+        padding: 5px 0;
+      }
+    }
+  }
+
+  main{
+    .main-section{
+      display: flex;
+      margin-top: 100px;
+
+      .info{
+        margin-top: 100px;
+        margin-left: 150px;
+
+        h1{
+          text-transform: uppercase;
+          font-weight: normal;
+          font-size: 3em;
+          margin-bottom: 0;
+        }
+
+        p{
+          line-height: 25px;
+          width: 75%;
+        }
+      }
+
+      img{
+        width: 100%;
+        margin-right: 350px;
+      }
+
+      button{
+        @include button-styles;
+        @include button-hover;
+      }
+    }
+
+    .second-section{
+      display: flex;
+      margin-top: 100px;
+
+      img{
+        height: 400px;
+        margin-top: 40px;
+        margin-left: 150px;
+      }
+
+      .second-section-info{
+        margin-left: 100px;
+
+        h2{
+          text-transform: uppercase;
+          font-weight: normal;
+          font-size: 4em;
+          margin-bottom: 0;
+        }
+
+        .performance{
+          text-transform: uppercase;
+          margin-left: 145px;
+          margin-bottom: 60px;
+
+          p{
+            margin-top: 0;
+          }
+
+          span{
+            font-weight: bold;
+          }
+        }
+      }
+
+      .powerbeats-info{
+        width: 73%;
+        margin-bottom: 60px;
+      }
+
+      .price{
+        font-weight: bold;
+        font-size: 2.2em;
+        margin-right: 30px;
+      }
+
+      button{
+        @include button-styles;
+        @include button-hover;
+      }
+    }
+
+    .try-beats{
+      background-color: #575757;
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 40px;
+
+      div{
+        display: flex;
+        justify-content: center;
+
+        img{
+          width: 90px;
+          height: 90px;
+        }
+
+        p{
+          text-transform: uppercase;
+          font-size: 1.7em;
+          color: #FFFFFF;
+          padding-bottom: 40px;
+          margin-left: 30px;
+
+          span{
+            font-weight: bold;
+          }
+        }
+      }
+
+      a{
+        border-bottom: 1px solid #FFFFFF;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.5em;
+        color: #FFFFFF;
+        padding-bottom: 7px;
+      }
+    }
+
+    .give-life{
+      display: flex;
+
+      img{
+        height: 600px;
+      }
+
+      .beats-red-info{
+        background-color: #DADADA;
+        display: flex;
+        height: 600px;
+
+        h2{
+          text-transform: uppercase;
+          font-size: 7.5em;
+          width: 50%;
+          color: #333333;
+          margin-left: 70px;
+          margin-bottom: 0;
+        }
+
+        p{
+          font-size: 2em;
+          color: #444444;
+          margin-top: 0;
+          margin-left: 85px;
+
+          span{
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #FF0000;
+          }
+        }
+
+        img{
+          padding: 30px 0;
+          height: 550px;
+        }
+      }
+    }
+  }
+
+  footer{
+    text-align: center;
+  }
+}

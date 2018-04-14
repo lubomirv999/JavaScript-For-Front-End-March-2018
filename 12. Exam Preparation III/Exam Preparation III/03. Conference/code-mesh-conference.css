@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+* {
+margin: 0;
+padding: 0;
+}
+body {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  height: 700px;
+  background: linear-gradient(rgba(20,20,20,0.8),rgba(220,220,220,0.8)),url("img/header-bg.png") center no-repeat;
+}
+#logo {
+  text-transform: uppercase;
+  margin: 10px;
+  font-weight: 900;
+  float: left;
+  color: #fff;
+}
+nav ul li {
+  display: inline-block;
+  float: right;
+  margin: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 900;
+}
+#center {
+  width: 38%;
+  display: flex;
+  margin: auto;
+  margin-left: 350px;
+  padding-top: 250px;
+}
+#center p {
+  font-size: 25px;
+  display: inline-block;
+  color: #fff;
+}
+#center i {
+  margin-top: 18px;
+  color: #fff;
+  font-size: 42px;
+}
+.header-section {
+  text-align: center;
+  color: #fff;
+  padding-top: 150px;
+}
+article {
+  width: 23%;
+  text-align: left;
+  display: inline-block;
+  font-size: 15px;
+  vertical-align: top;
+  padding: 3px;
+}
+article:hover {
+  height: 197px;
+  cursor: pointer;
+  padding-bottom: 30px;
+  border-bottom: 10px solid #FC691E;
+}
+article i {
+  margin-bottom: 55px;
+}
+.left {
+  width: 20%;
+  margin-left: 85px;
+}
+.left p {
+  width: 70%;
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  top: 150px;
+  left: 200px;
+}
+.MarcNewson {
+position: relative;
+top: 200px;
+left: 260px;
+text-transform: capitalize;
+font-size: 12px;
+}
+.center {
+  margin: auto;
+  width: 20%;
+}
+.center p {
+  font-size: 12px;
+  width: 86%;
+  font-weight: 500;
+  padding-bottom: 25px;
+  border-bottom: 1px solid black;
+}
+.bottom {
+  font-size: 14px;
+  position: relative;
+  top: 35px;
+ font-weight: bold;
+}
+#right-img {
+  width: 250px;
+  text-align: right;
+  float: right;
+  position: relative;
+  bottom: 320px;
+  right: 250px;
+}
+#orange {
+  background-color: #FD8653;
+  position: relative;
+  bottom: 375px;
+  width: 400px;
+  float: right;
+  left: 249px;
+  height: 400px;
+  opacity: 0.8;
+}
+.schedule {
+  background-color: #3C3E4A;
+  margin-top: 95px;
+  height: 500px;
+  color: #fff;
+  padding-left: 100px;
+}
+.schedule h2 {
+  padding-top: 35px;
+  margin-left: 35px;
+  width: 33%;
+}
+.registration {
+  margin: 65px;
+}
+.mic {
+  margin: 65px;
+}
+.lunch {
+  margin: 65px;
+}
+.position-right {
+  float: right;
+  position: relative;
+  bottom: 420px;
+  right: 300px;
+  color: #fff;
+  width: 20%:
+}
+.linux {
+  margin: 65px;
+}
+.wonderful {
+  margin: 65px;
+}
+.do-we-need {
+  margin: 65px;
+}
+.schedule i {
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #FD8653;
+  margin-right: 20px;
+}
+.position-right i {
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #FD8653;
+  margin-right: 20px;
+}
+.time {
+  font-weight: bold;
+}
+.schedule p {
+  text-transform: capitalize;
+  position: relative;
+  left: 170px;
+  bottom: 30px;
+  font-size: 12px;
+}
+.position-right p {
+  font-size: 12px;
+  text-transform: capitalize;
+  position: relative;
+  left: 170px;
+  bottom: 30px;
+}
+.speakers-1 h3 {
+  width: 28%;
+  margin-top: 35px;
+  margin-left: 35px;
+  margin-bottom: 55px;
+}
+.speakers-1 h4 {
+  float: right;
+  position: relative;
+  left: 80px;
+  bottom: 90px;
+  font-weight: lighter;
+  font-size: 12px;
+}
+.one, .two, .three, .four {
+  margin: auto;
+  display: inline-block;
+  width: 18%;
+}
+.speakers-1 {
+  display: inline-block;
+  width: 90%;
+  margin: auto;
+}
+.speakers-1 img {
+  width: 180px;
+}
